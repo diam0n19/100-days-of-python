@@ -52,57 +52,57 @@ import random  #-----------> random is a module within python, we can make our o
 
 # print (f"{line_1}\n{line_2}\n{line_3}")
 
-rock = '''
-    _______
----'   ____)
-      (_____)
-      (_____)
-      (____)
----.__(___)
-'''
+# rock = '''
+#     _______
+# ---'   ____)
+#       (_____)
+#       (_____)
+#       (____)
+# ---.__(___)
+# '''
 
-paper = '''
-    _______
----'   ____)____
-          ______)
-          _______)
-         _______)
----.__________)
-'''
+# paper = '''
+#     _______
+# ---'   ____)____
+#           ______)
+#           _______)
+#          _______)
+# ---.__________)
+# '''
 
-scissors = '''
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-'''
+# scissors = '''
+#     _______
+# ---'   ____)____
+#           ______)
+#        __________)
+#       (____)
+# ---.__(___)
+# '''
 
-player = int(input("Type \"0\" for rock, \"1\" for paper, or \"2\" for scissors: "))
-pc = random.randint(0, 2)
+# player = int(input("Type \"0\" for rock, \"1\" for paper, or \"2\" for scissors: "))
+# pc = random.randint(0, 2)
 
-if player == 0:
-    print (f"You choose rock\n{rock}")
-    if pc == 2:
-        print (f"PC choose scissors\n{scissors}You Won!")
-    elif pc == 1:
-        print (f"PC choose paper\n{paper}You Lost!")
-    else:
-        print (f"PC choose rock\n{rock}Its a Tie!")
-elif player == 1:
-    print (f"You choose paper\n{paper}")
-    if pc == 2:
-        print (f"PC choose scissors\n{scissors}You Lost!")
-    elif pc == 1:
-        print (f"PC choose paper\n{paper}Its a Tie!")
-    else:
-        print (f"PC choose rock\n{rock}You Win!")
-else:
-    print (f"You choose scissors\n{scissors}")
-    if pc == 2:
-        print (f"PC choose scissors\n{scissors}Its a Tie!")
-    elif pc == 1:
-        print (f"PC choose paper\n{paper}You Win!")
-    else:
-        print (f"PC choose rock\n{rock}You Lost!")
+# if player == 0:
+#     print (f"You choose rock\n{rock}")
+#     if pc == 2:
+#         print (f"PC choose scissors\n{scissors}You Won!")
+#     elif pc == 1:
+#         print (f"PC choose paper\n{paper}You Lost!")
+#     else:
+#         print (f"PC choose rock\n{rock}Its a Tie!")
+# elif player == 1:
+#     print (f"You choose paper\n{paper}")
+#     if pc == 2:
+#         print (f"PC choose scissors\n{scissors}You Lost!")
+#     elif pc == 1:
+#         print (f"PC choose paper\n{paper}Its a Tie!")
+#     else:
+#         print (f"PC choose rock\n{rock}You Win!")
+# else:
+#     print (f"You choose scissors\n{scissors}")
+#     if pc == 2:
+#         print (f"PC choose scissors\n{scissors}Its a Tie!")
+#     elif pc == 1:
+#         print (f"PC choose paper\n{paper}You Win!")
+#     else:
+#         print (f"PC choose rock\n{rock}You Lost!")
