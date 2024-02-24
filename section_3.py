@@ -162,13 +162,4 @@
 # else:
 #     print("Nice Sailing")
 
-
-
-
-
-
-
-
-
-
-
+#day 3 done
